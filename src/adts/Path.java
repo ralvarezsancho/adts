@@ -10,6 +10,6 @@ public interface Path<E> extends Serializable {
 	
 	public boolean isNext();
 	
-	public Path<E> next() throws ExceptionInvalidIndex;
+	public Position<E> next() throws ExceptionInvalidIndex;
 
 }
